@@ -30,7 +30,11 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <Link to='/about'>a bit about me</Link>
-            <Link to='/contact'>reach out</Link>
+            <Link to='#'
+              onClick={(e) => {
+                window.location.href = 'mailto:annamriley4@gmail.com';
+                e.preventDefault();
+              }}>reach out</Link>
             <Link to='/favourite'>my favourite things</Link>
           </div>
         </div>
@@ -46,15 +50,15 @@ function Footer() {
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
-              to='/'
+              to={{ pathname: "https://github.com/annariley" }}
               target='_blank'
               aria-label='Facebook'
             >
-              <i class='fab fa-facebook-f' />
+              <i class='fab fa-github' />
             </Link>
             <Link
               class='social-icon-link instagram'
-              to='/'
+              to={{ pathname: "https://www.instagram.com/annariley4/" }}
               target='_blank'
               aria-label='Instagram'
             >
@@ -62,27 +66,39 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link youtube'
-              to='/'
+              to={{ pathname: 'https://www.linkedin.com/in/annariley4/' }}
               target='_blank'
               aria-label='Youtube'
             >
-              <i class='fab fa-youtube' />
+              <i class='fab fa-linkedin' />
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to={{ pathname: 'https://www.strava.com/athletes/68204807' }}
               target='_blank'
               aria-label='Twitter'
             >
-              <i class='fab fa-twitter' />
+              <i class='fab fa-strava' />
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to={{ pathname: 'https://open.spotify.com/user/annariley576?si=a0c4bb07fa784f29' }}
               target='_blank'
               aria-label='LinkedIn'
             >
-              <i class='fab fa-linkedin' />
+              <i class='fab fa-spotify' />
+            </Link>
+            <Link
+              class='social-icon-link twitter'
+              to='#'
+              onClick={(e) => {
+                window.location.href = 'mailto:annamriley4@gmail.com';
+                e.preventDefault();
+              }}
+              target='_blank'
+              aria-label='LinkedIn'
+            >
+              <i class='fa fa-envelope' />
             </Link>
           </div>
         </div>
