@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/anna-riley-website/static/css/main.1173eda8.chunk.css",
+    "main.js": "/anna-riley-website/static/js/main.9d4eb3f9.chunk.js",
+    "main.js.map": "/anna-riley-website/static/js/main.9d4eb3f9.chunk.js.map",
+    "runtime-main.js": "/anna-riley-website/static/js/runtime-main.69ab6499.js",
+    "runtime-main.js.map": "/anna-riley-website/static/js/runtime-main.69ab6499.js.map",
+    "static/js/2.7bb5ae5f.chunk.js": "/anna-riley-website/static/js/2.7bb5ae5f.chunk.js",
+    "static/js/2.7bb5ae5f.chunk.js.map": "/anna-riley-website/static/js/2.7bb5ae5f.chunk.js.map",
+    "index.html": "/anna-riley-website/index.html",
+    "precache-manifest.2a636296f5d5a574cd5817041337ed01.js": "/anna-riley-website/precache-manifest.2a636296f5d5a574cd5817041337ed01.js",
+    "service-worker.js": "/anna-riley-website/service-worker.js",
+    "static/css/main.1173eda8.chunk.css.map": "/anna-riley-website/static/css/main.1173eda8.chunk.css.map",
+    "static/js/2.7bb5ae5f.chunk.js.LICENSE.txt": "/anna-riley-website/static/js/2.7bb5ae5f.chunk.js.LICENSE.txt",
+    "static/media/Lunch_atop_a_Skyscraper_-_Charles_Clyde_Ebbets.jpg": "/anna-riley-website/static/media/Lunch_atop_a_Skyscraper_-_Charles_Clyde_Ebbets.89bc18fb.jpg",
+    "static/media/clarertt.JPG": "/anna-riley-website/static/media/clarertt.489e820b.JPG",
+    "static/media/favourite.jpg": "/anna-riley-website/static/media/favourite.036ccfc6.jpg",
+    "static/media/me.jpg": "/anna-riley-website/static/media/me.4ed3d09d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69ab6499.js",
+    "static/js/2.7bb5ae5f.chunk.js",
+    "static/css/main.1173eda8.chunk.css",
+    "static/js/main.9d4eb3f9.chunk.js"
+  ]
+}
