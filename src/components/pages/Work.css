@@ -78,7 +78,61 @@
     transition: all 500ms ease-out;
 }
 
+.element-1-spacing {
+    position: relative;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 200px;
+    height: 300px;
+}
 
+.element-2-spacing {
+    position: relative;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 200px;
+    height: 300px;
+}
+
+.element-3-spacing {
+    position: relative;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 200px;
+    height: 300px;
+}
+
+.element-4-spacing {
+    position: relative;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 200px;
+    height: 300px;
+}
+
+.element-5-spacing {
+    position: relative;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 200px;
+    height: 300px;
+}
+
+
+.resume {
+    color: #fff;
+    font-size: 24px;
+}
 
 .element-1>h1 {
     font-size: medium;
