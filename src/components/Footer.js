@@ -48,58 +48,36 @@ function Footer() {
             </Link>
           </div>
           <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to={{ pathname: "https://github.com/annariley" }}
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-github' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to={{ pathname: "https://www.instagram.com/annariley4/" }}
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to={{ pathname: 'https://www.linkedin.com/in/annariley4/' }}
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to={{ pathname: 'https://www.strava.com/athletes/68204807' }}
-              target='_blank'
-              aria-label='Twitter'
-            >
+            <a href="https://github.com/annariley" target="_blank" rel="noreferrer">
+              <div class = 'social-icon-link facebook'>
+                <i class='fab fa-github' />
+              </div>
+            </a>
+            <a href="https://www.instagram.com/annariley4/" target="_blank" rel="noreferrer">
+              <div class = 'social-icon-link instagram'>
+                <i class='fab fa-instagram' />
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/annariley4/" target="_blank" rel="noreferrer">
+              <div class = 'social-icon-link youtube'>
+                <i class='fab fa-linkedin' />
+              </div>
+            </a>  
+            <a href='https://www.strava.com/athletes/68204807' target="_blank" rel="noreferrer">
+              <div class = 'social-icon-link twitter'>
               <i class='fab fa-strava' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to={{ pathname: 'https://open.spotify.com/user/annariley576?si=a0c4bb07fa784f29' }}
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-spotify' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='#'
-              onClick={(e) => {
-                window.location.href = 'mailto:annamriley4@gmail.com';
-                e.preventDefault();
-              }}
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fa fa-envelope' />
-            </Link>
+              </div>
+            </a>
+            <a href='https://open.spotify.com/user/annariley576?si=a0c4bb07fa784f29' target="_blank" rel="noreferrer">
+              <div class = 'social-icon-link twitter'>
+                <i class='fab fa-spotify' />
+              </div>
+            </a>  
+            <a href='mailto:annamriley4@gmail.com' target="_blank" rel="noreferrer">
+              <div class = 'social-icon-link twitter'>
+                <i class='fa fa-envelope' />
+              </div>
+            </a>
           </div>
         </div>
       </section>
