@@ -5,13 +5,14 @@
     font-size: 3rem;
     background-position: center;
     background-size: cover;
+    background-color: #b9bf9c;
     align-items: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     width: 100%;
-    color: #fff;
+    color: rgb(215, 210, 210);
     height: 100vh;
     font-size: 50px;
     margin-top: -80px;
@@ -28,6 +29,8 @@
     height: 300px;
     background: #757962;
     transition: all 500ms ease-out;
+    color: #fff;
+    font-size: 24px;
 }
 
 .element-2 {
@@ -40,6 +43,7 @@
     height: 300px;
     background: #60777d;
     transition: all 500ms ease-out;
+    color: #fff;
 }
 
 .element-3 {
@@ -52,6 +56,7 @@
     height: 300px;
     background: #ae9f7c;
     transition: all 500ms ease-out;
+    color: #fff;
 }
 
 .element-4 {
@@ -64,6 +69,7 @@
     height: 300px;
     background: #415551;
     transition: all 500ms ease-out;
+    color: #fff;
 }
 
 .element-5 {
@@ -76,6 +82,7 @@
     height: 300px;
     background: #8ba280;
     transition: all 500ms ease-out;
+    color: #fff;
 }
 
 .element-1-spacing {
@@ -209,4 +216,154 @@
     height: 330px;
     background-color: #515f4b;
     transition: all 0.4s ease-out;
+}
+
+.education {
+    height: 5cm;
+    background-color: #757962;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: "Josefin Sans";
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 7%;
+    margin-left: -60%;
+}
+
+.subtitle {
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    color: #fff;
+    margin-top: 2%;
+    margin-left: -55%;
+}
+
+.duration {
+    font-family: "Josefin Sans";
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #fff;
+    margin-top: -2.35%;
+    margin-left: 60%;
+}
+
+.gpa {
+    font-family: "Josefin Sans";
+    font-size: 25px;
+    color: #fff;
+    margin-top: -1.8%;
+    margin-left: 70%;
+}
+
+.technical {
+    height: 740px;
+    background-color: #60777d;
+
+
+}
+
+.worktitle {
+    font-family: "Josefin Sans";
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+.worktitle2 {
+    font-family: "Josefin Sans";
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.workduration {
+    font-family: "Josefin Sans";
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #fff;
+    margin-top: -2.35%;
+    margin-left: 65%;
+}
+
+.worksubtitle {
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    color: #fff;
+    margin-top: 2%;
+    margin-left: 12%;
+}
+
+.description {
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+.projects {
+    height: 1500px;
+    background-color: #ae9f7c;
+}
+
+.other {
+    height: 1050px;
+    background-color: #415551;
+}
+
+.interests {
+    height: 740px;
+    background-color: #8ba280;
+}
+
+.interestsText {
+    font-family: "Josefin Sans";
+    font-size: 30px;
+    color: #fff;
+    margin-top: 4%;
+    margin-left: 14%;
+    margin-right: 14%;
+    line-height: 180%;
+}
+
+.sections {
+    font-family: "Abril Fatface", cursive;
+    font-size: 50px;
+    color: #fff;
+    padding-top: 70px;
+}
+
+.sectionsEd {
+    font-family: "Abril Fatface", cursive;
+    font-size: 50px;
+    color: #fff;
+    margin-top: -350px;
+}
+
+
+
+
+
+.sectionsContainer {
+    align-items: center;
+}
+
+.placeholder {
+    height: 100vh;
+    background-color: #b9bf9c;
 }

@@ -5,12 +5,15 @@ import { Link } from 'react-router-dom';
 import Navbar from '../Navbar';
 
 export default function Favourite() {
+    let url = getURL()
     return (
         <>
-            <Navbar />
-            <Link to={{ pathname: getURL() }} target='_blank'>
-                <h1 className='favourite' style={{ backgroundImage: `url(${background})` }}>click here for one of my favourite things</h1>
-            </Link>
+            <div>
+                <Navbar />
+                <a href={url} target="_blank" >
+                    <h1 className='favourite' style={{ backgroundImage: `url(${background})` }}>click here for one of my favourite things</h1>
+                </a>
+            </div>
         </>
     )
 }
@@ -28,8 +31,12 @@ map1.set(7, 'https://minimalistbaker.com/');
 map1.set(8, 'https://jjbeancoffee.com/');
 map1.set(9, 'http://www.ucmatubc.com/');
 map1.set(10, 'http://pacificspiritparksociety.org/about-the-park/pacific-spirit-park/');
+map1.set(11, 'https://reddogsdogdays.org/');
+map1.set(12, 'https://www.rifugiovajolet.com/eng/Default.asp');
+map1.set(13, 'http://www.ubcsprouts.ca/');
+
 
 const getURL = () => {
-    let num = parseInt(Math.random() * 11);
+    let num = parseInt(Math.random() * 13);
     return map1.get(num)
 }

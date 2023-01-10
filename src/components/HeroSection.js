@@ -15,11 +15,11 @@ function HeroSection() {
         <p>child of God</p>
         <p>student</p>
         <p>listener</p>
+        <p>sister</p>
         <p>runner</p>
         <p>programmer</p>
-        <p>conversationalist</p>
         <p>skier</p>
-        <p>adventure seeker</p>
+        <p>friend</p>
       </div>
       <p>Welcome to my online space.</p>
       {/*<div className='hero-btns'>

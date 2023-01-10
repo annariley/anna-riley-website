@@ -9,6 +9,7 @@ import Thoughts from './components/pages/Thoughts';
 import Secrets from './components/pages/Secrets';
 import About from './components/pages/About';
 import Favourite from './components/pages/Favourite';
+import Education from './components/pages/work pages/Education.js';
 import { Helmet } from "react-helmet";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path='/secrets' component={Secrets} />
           <Route path='/about' component={About} />
           <Route path='/favourite' component={Favourite} />
+          <Route path='/education' component={Education} />
         </Switch>
       </HashRouter>
     </>
